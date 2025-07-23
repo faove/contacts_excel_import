@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Menu item for Excel import -->
+    <menuitem id="menu_import_excel"
+              name="Importar Excel"
+              parent="contacts.menu_contacts"
+              action="action_import_excel"
+              sequence="100"/>
+              
+    <!-- Action for Excel import -->
+    <record id="action_import_excel" model="ir.actions.act_window">
+        <field name="name">Importar contactos desde Excel</field>
+        <field name="res_model">contact.excel.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

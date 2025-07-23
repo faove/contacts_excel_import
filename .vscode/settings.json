@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "/usr/lib/python3/dist-packages",
+        "/opt/odoo",
+        "/var/lib/odoo"
+    ],
+    "python.analysis.autoImportCompletions": true
+} 
